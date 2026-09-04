@@ -1,7 +1,6 @@
 <?php
 
 // CLASSE PARA CONEXÃO...
-
 $host = "localhost";
 $porta = '3307';
 $user = "root";

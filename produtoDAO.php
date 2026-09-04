@@ -41,7 +41,6 @@ class ProdutoDAO{
             $objProduto1->setProduto($ret['produto']);
             $objProduto1->setValor($ret['valor']);
             $objProduto1->setValorTotal($ret['quantidade'], $ret['valor']);
-          // $objProduto1->setValorToal($ret['valorTotal]); // testar para ver se roda...?
 
             $listaProduto[] = $objProduto1;
 

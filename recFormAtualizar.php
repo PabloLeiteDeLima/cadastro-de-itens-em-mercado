@@ -22,5 +22,6 @@ $objProduto->setValorTotal($quantidade, $valor);
 $objProdutoDAO = new ProdutoDAO($conn);
 $objProdutoDAO->atualizar($objProduto);
 
+// reedirecionando para página inicial.
 header('location:index.php');
 ?>
