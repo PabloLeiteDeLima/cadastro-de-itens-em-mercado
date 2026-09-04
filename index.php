@@ -3,7 +3,7 @@
 // requisições necessárias...
 include_once("produtoDAO.php");
 include_once("produto.php");
-include_once("conexao.php"); // SE LIGA... TENHO QUE TER A CONEXÃO AQUI ?????
+include_once("conexao.php");
 
 if(isset($_GET['id'])){  // SE LIGA: AQUI TENHO QUE TRATAR O atualizar pegando pelo $id.
 
